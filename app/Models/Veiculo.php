@@ -10,13 +10,16 @@ class Veiculo extends Model
     use HasFactory;
 
     protected $fillable = [
+        'proprietario',
+        'telefone',
         'placa',
         'marca_modelo',
         'cor',
+        'km',
         'ano_fabricacao',
         'ano_modelo',
         'cilindrada',
-        'combustivel',
-        'km'
+        'combustivel',     
+        'irreg_serv'
     ];
 }

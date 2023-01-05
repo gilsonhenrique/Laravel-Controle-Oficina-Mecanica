@@ -15,6 +15,8 @@ return new class extends Migration
     {
         Schema::create('veiculos', function (Blueprint $table) {
             $table->id();
+            $table->string('proprietario');
+            $table->string('telefone', 11);            
             $table->string('placa', 7);
             $table->string('marca_modelo');
             $table->string('cor');
@@ -23,6 +25,7 @@ return new class extends Migration
             $table->integer('cilindrada');
             $table->string('combustivel');
             $table->integer('km');
+            $table->longText('irreg_serv');
             $table->timestamps();
         });
     }
