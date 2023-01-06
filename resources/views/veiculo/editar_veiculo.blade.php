@@ -73,7 +73,7 @@
             <div class="btn-toolbar p-3">
 
                 <div class="col-md-4">
-                    <input type="submit" value="Editar" class="btn btn-info btn-lg">
+                    <input type="submit" value="Editar" class="btn btn-primary btn-lg">
                 </div>
 
             </div>

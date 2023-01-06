@@ -13,5 +13,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Rota inicial da Aplicação
+Route::get('/', [VeiculoController::class, 'index'])->name('veiculos.home');
 // Rotas de Cadastro de Veiculo
 Route::resource('veiculos', VeiculoController::class);

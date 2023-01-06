@@ -32,7 +32,7 @@
                 <label for="nome">Cor: <sup class="text-danger"></sup></label>
                 <input type="text" name="cor" id="cor" value="<?= (isset($dados['cor'])) ? $dados['cor'] : "" ?>" class="form-control">
             </div>
-            <div class="col-6 col-sm-3 p-3">
+            <div class="col-6 col-sm-4 p-3">
                 <label for="nome">Km: <sup class="text-danger"></sup></label>
                 <input type="tel" maxlength="6" name="km" id="km" value="<?= (isset($dados['km'])) ? $dados['km'] : "" ?>" class="form-control">
             </div>
@@ -72,7 +72,7 @@
             <div class="btn-toolbar p-3">
 
                 <div class="col-md-4">
-                    <input type="submit" value="Cadastrar" class="btn btn-info btn-lg">
+                    <input type="submit" value="Cadastrar" class="btn btn-primary btn-lg">
                 </div>
 
             </div>
